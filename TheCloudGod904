@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D's Personal Site</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #007bff;
+      color: white;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+    header h1 { margin: 0; font-size: 3rem; }
+    header p { font-size: 1.4rem; margin: 0.5rem 0; }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    section {
+      margin: 3rem 0;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h2 { color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 0.5rem; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 1rem 0; font-size: 1.1rem; }
+    a { color: #007bff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HEY, I'M D</h1>
+    <p>From Jacksonville, FL • Building cool stuff</p>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I'm D, a [YOUR ROLE/INTEREST e.g. web enthusiast / developer / creative] based in Jacksonville, Florida. I just got started with GitHub and I'm excited to share my journey/projects/hobbies here.</p>
+      <p>Feel free to reach out if you want to collab or just say hi!</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects / Things I'm Working On</h2>
+      <ul>
+        <li><strong>My First Site</strong> — This very page! Built with HTML & CSS on GitHub Pages.</li>
+        <li><a href="https://github.com/YOURUSERNAME/some-project">Project 2</a> — [short description]</li>
+        <li><a href="#">Coming soon...</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <ul>
+        <li>GitHub: <a href="https://github.com/YOURUSERNAME">@YOURUSERNAME</a></li>
+        <li>Email: [your.email@example.com]</li>
+        <li>Twitter/X or other: [link]</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 D • Hosted on <a href="https://pages.github.com">GitHub Pages</a></p>
+  </footer>
+
+</body>
+</html>
